@@ -1,0 +1,272 @@
+/* ===== Import Font ===== */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+
+/* ===== Basic Style Start ===== */
+body {
+    color: #999999;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    line-height: 1.80857;
+    padding-top: 130px;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin:0;
+}
+
+h1{
+    font-size: 75px;
+    color: #EA9800;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+h6{
+    font-size: 13px;
+}
+
+/* ===== Basic Style End ===== */
+
+/* ===== Header Start ===== */
+.navbar {
+    background: #FFFFFF;
+}
+
+.top-navbar {
+    position: relative;
+    z-index: 10;
+}
+
+.top-navbar .navbar{
+    position: fixed;
+    width:100%;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-link {
+    color: #010101;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background: #EA9800 ;
+    color: #FFFFFF;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link {
+    background: #EA9800;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border:none;
+    border-radius: 0px;
+    padding: 10px;
+    box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a{
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover {
+    background:#EA9800;
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-toggle:hover {
+    background:#EA9800;
+}
+/* ===== Header End ===== */
+
+/* ===== Carousel Start ===== */
+
+.carousel-item {
+    height: 100 vh;
+    min-height:300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.carousel-item > .carousel-caption >.row {
+    color: #ffffff;
+
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 19px 36px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: .1875rem;
+    transition: color .15s ease-in-out,
+                background-color .15s ease-in-out,
+                box-shadow .15s ease-in-out;
+}
+
+.btn-outline-new-white {
+    color: #fff;
+    background-color: #EA9800;
+    background-color: none;
+    border-color: #EA9800;
+}
+/*hover */
+.btn-outline-new-white:hover {
+    color: #ffffff;
+    background-color: #a4bc38;
+    border-color: #a4bc38;
+} 
+
+/* ===== Carousel End ===== */ 
+
+/* ===== About Start ===== */
+.about-section-box {
+    padding: 50px 0px;  
+}
+
+.about-section-box .img-fluid {
+    box-shadow: 20px 20px 0px #EA9800;
+}
+
+.inner-column {
+    text-align: left;
+}
+
+.inner-column h2 {
+    font-family: "Rubik",sans-serif;
+    font-size: 40px;
+    color: #010101;
+    font-weight: 500;
+}
+
+.inner-column h2 span {
+    color: #EA9800;
+    font-weight: bold;
+}
+
+.inner-column p {
+    font-size: 18px;
+    color: #222222;
+}
+/* ===== About End ===== */
+
+
+/* ===== Gallery Start ===== */
+.gallery-box {
+    padding: 70px 0px;
+}
+.hr-gallery {
+    margin-top: 30px;
+}
+
+.hr-gallery img {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.hr-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+} 
+
+.hr-gallery .img-fluid {
+    border: 3px solid #EA9800;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* ===== Gallery End ===== */ 
+
+/* ===== Review Start ===== */ 
+
+/* ===== Review End ===== */ 
+
+/* ===== Footer Start ===== */ 
+.footer-area {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-color: #010101;
+}
+
+.footer-area .container {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-area h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 2px solid #a4bc38;
+    margin-bottom: 10px;
+}
+
+.footer-area p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-area p.lead {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.footer-area p a {
+    font-size: 18px;
+    color: #ffffff;
+}
+/* ===== Footer End ===== */ 
