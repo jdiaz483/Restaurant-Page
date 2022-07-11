@@ -5,7 +5,6 @@ Redo the Huynh restaurant site (2-3) pages using bootstrap. The original site is
 
 ## Screenshots 
 <img src="Images/RDM01.png">
-<img src="Images/RDM02.png">
 <img src="Images/RDM03.png">
 
 The sit was made mobile friendly as well. 
