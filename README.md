@@ -1,6 +1,4 @@
-<img src="Images/logo.png">
-
-## Restaurant Page in Bootstrap
+# Restaurant Page in Bootstrap
 
 Redo the Huynh restaurant site (2-3) pages using bootstrap. The original site is here:
 [Huynh Restaurant](http://huynhrestauranthouston.com/cgi-bin/p/awtp-home.cgi?d=huynh-restaurant)
